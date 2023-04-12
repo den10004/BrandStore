@@ -1,4 +1,4 @@
-[cсылка](https://github.com/den10004/brandStore.git)
+[cсылка](https://github.com/den10004/BrandStore.git)
 
 Тестовое задание "интернет-магазин" написанный на React.js
 Реализовано: рендер массива карточек,
@@ -10,4 +10,4 @@
 эмитация оплаты заказа,
 при попытке перейти на несуществующую страницу - переход на страницу "нет такой страницы"
 
-[a link](https://den10004.github.io/brandStore)
+[cсылка](https://den10004.github.io/brandStore)

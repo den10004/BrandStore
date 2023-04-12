@@ -56,7 +56,7 @@ function Basket() {
               Количество товаров: <strong>{basketArr.length} </strong>
             </span>
             <span>
-              Стоимость товаров: <strong>{sumPrice}</strong>
+              Стоимость товаров: <strong>{sumPrice} USD</strong>
             </span>
             <button className="button colorGreen buttonTop" onClick={payBasket}>
               Оплатить
