@@ -42,7 +42,7 @@ function Card({
     <div style={cards}>
       <div style={cardsContent}>
         <span>Бренд {brand}</span>
-        <img src={`/src/assets/${image}`} alt={brand} />
+        <img src={`./src/assets/${image}`} alt={brand} />
         <span>Товар: {title}</span>
         <span>
           Цена: {price} {currency}
