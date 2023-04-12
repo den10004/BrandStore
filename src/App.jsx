@@ -15,6 +15,7 @@ function App() {
       <BasketContext.Provider value={{ basketArr, setBasketArr }}>
         <Routes>
           <Route path="/" element={<MainLayout />} />
+          <Route path="/BrandStore" element={<MainLayout />} />
           <Route path="/basket" element={<Basket />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
