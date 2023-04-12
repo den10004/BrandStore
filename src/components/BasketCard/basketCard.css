@@ -1,0 +1,42 @@
+.cards {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 800px;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 820px) {
+  .cards {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+.card__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__wrap > img {
+  width: 140px;
+}
+
+@media screen and (max-width: 820px) {
+  .cards {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+.card__desicription {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardsButton {
+  margin-top: 10px;
+}

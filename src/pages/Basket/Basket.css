@@ -1,0 +1,19 @@
+.basketWrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.basketTotal {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .basketTotal {
+    flex-direction: column;
+  }
+  .buttonTop {
+    margin: 10px auto 0 auto;
+  }
+}

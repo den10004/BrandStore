@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  padding-bottom: 100vh;
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+  width: 130px;
+  height: 30px;
+  font-weight: 700;
+}
+
+.colorRed {
+  color: white;
+  background-color: red;
+}
+
+.colorBlue {
+  color: white;
+  background-color: blue;
+}
+
+.colorGreen {
+  color: white;
+  background-color: green;
+}
